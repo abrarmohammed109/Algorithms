@@ -17,7 +17,7 @@ const largestNumber = (magnitude) => {
   for (i=1;i<=magnitude; i++){
     numberArray.push(9)
   }
-  const num = numberArray.join(" ")
+  const num = numberArray.join("")
   console.log (num)
 }
 
